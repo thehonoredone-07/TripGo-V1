@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ocean: #075f58;
+  --color-ink: #173b3a;
+  --color-sun: #f4bf48;
+  --color-mist: #eef7f5;
+  --shadow-soft: 0 18px 50px rgba(7, 95, 88, 0.14);
+}
+
+@theme {
+  --animate-fade-up: fade-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-float: float 5s ease-in-out infinite;
+  --animate-progress: progress 1.4s ease-in-out infinite;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes progress {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}

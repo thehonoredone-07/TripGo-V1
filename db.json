@@ -1,0 +1,80 @@
+{
+  "flights": [
+    {
+      "id": "VN213",
+      "carrier": "VN",
+      "from": "HAN",
+      "to": "SGN",
+      "depart": "06:10",
+      "arrive": "08:20",
+      "duration": "2h 10m",
+      "price": 1459000,
+      "status": "Đúng giờ"
+    },
+    {
+      "id": "VJ129",
+      "carrier": "VJ",
+      "from": "HAN",
+      "to": "SGN",
+      "depart": "08:35",
+      "arrive": "10:45",
+      "duration": "2h 10m",
+      "price": 1069000,
+      "status": "Đúng giờ"
+    },
+    {
+      "id": "QH201",
+      "carrier": "QH",
+      "from": "HAN",
+      "to": "SGN",
+      "depart": "11:20",
+      "arrive": "13:30",
+      "duration": "2h 10m",
+      "price": 1279000,
+      "status": "Đúng giờ"
+    },
+    {
+      "id": "VU787",
+      "carrier": "VU",
+      "from": "HAN",
+      "to": "SGN",
+      "depart": "14:15",
+      "arrive": "16:25",
+      "duration": "2h 10m",
+      "price": 1189000,
+      "status": "Chậm 15 phút"
+    },
+    {
+      "id": "VN263",
+      "carrier": "VN",
+      "from": "HAN",
+      "to": "SGN",
+      "depart": "18:05",
+      "arrive": "20:15",
+      "duration": "2h 10m",
+      "price": 1639000,
+      "status": "Đúng giờ"
+    },
+    {
+      "id": "VJ159",
+      "carrier": "VJ",
+      "from": "HAN",
+      "to": "SGN",
+      "depart": "21:10",
+      "arrive": "23:20",
+      "duration": "2h 10m",
+      "price": 989000,
+      "status": "Đúng giờ"
+    }
+  ],
+  "bookings": [],
+  "users": [
+    {
+      "id": "admin-01",
+      "name": "Admin",
+      "email": "admin@tripgo.vn",
+      "password": "Admin@123",
+      "role": "admin"
+    }
+  ]
+}
